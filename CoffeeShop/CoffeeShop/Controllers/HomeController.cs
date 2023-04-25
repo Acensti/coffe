@@ -14,5 +14,9 @@ namespace CoffeeShop.Controllers
         {
             return View(productRepository.GetTrendingProducts());
         }
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }
